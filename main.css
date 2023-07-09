@@ -65,7 +65,7 @@ header img:active{
     height:60vh;
     z-index: 2;
     border-radius: 50%;
-    animation: nspin 100s linear infinite;
+    animation: unspin 100s linear infinite;
     border: 0px solid green;
 }
 

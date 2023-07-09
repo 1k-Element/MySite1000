@@ -536,6 +536,60 @@ div.intro p{
 
       @media only screen and (max-width: 768px) {
 
+        .masky .icons{
+            display: flex;
+            position:relative;
+            width: 20rem;
+            height:20rem;
+            z-index: 2;
+            border-radius: 50%;
+            animation: unspin 100s linear infinite;
+            border: 0px solid green;
+        }
+    
+        .masky img.logo{ 
+            top: inherit; 
+            width:20rem ;
+            height:auto;
+            position: absolute;
+            border: 0px solid green;
+            border-radius: 50%;
+        }
+    
+
+        .masky .icons .button1 img {
+            top:0.2rem; left: 0.1rem; width: 24vw; animation: spin 100s linear infinite; border-radius: 50%;
+        }
+        
+        .masky .icons .button2 img {
+            top:-2.7rem; left: 1.54rem; width: 24vw; animation: spin 100s linear infinite; border-radius: 50%;
+        }
+        
+        .masky .icons .button3 img {
+            top:0.2rem; left: 2.9rem; width: 24vw; animation: spin 100s linear infinite; border-radius: 50%;
+        }
+        
+        .masky .icons .button4 img {
+            top:7.2rem; left: 0.2em; width: 24vw; animation: spin 100s linear infinite; border-radius: 50%;
+        }
+        
+        .masky .icons .button5 img {
+            top:7.2rem; left: -25.2rem; width: 24vw; animation: spin 100s linear infinite; border-radius: 50%;
+        }
+        
+        .masky .icons .button6 img {
+            top:14.15rem; left: -13.9rem; width: 24vw; animation: spin 100s linear infinite; border-radius: 50%;
+        }
+        
+        .masky .icons .button7 img {
+            top:14.15rem; left:-33.6rem; width: 24vw; animation: spin 100s linear infinite; border-radius: 50%;
+        }
+        
+        .masky .icons .button8 img {
+            top:17.1rem; left: -32.2rem; width: 24vw; animation: spin 100s linear infinite; border-radius: 50%;
+        
+    
+
     
         header span {
             display: flex;

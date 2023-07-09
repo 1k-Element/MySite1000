@@ -1,3 +1,5 @@
+
+
 zbody, html {
     height: 100%;
     scroll-behavior: smooth;
@@ -12,54 +14,32 @@ body{
     background-size: cover;
     background-attachment: fixed;
     align-items: center;
-}
-
-
-
-header{
-    align-content: center;
-    justify-content: space-between;
-    margin-bottom: 3.5%;
     
 }
 
-nav img{
+
+
+header {
+    padding: 2% 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header img{
     margin-top: -10%;
     margin-bottom: -10%;
     height: 20vh;
     position:relative;
-    align-items: center ;
+    align-items: center;
     float:center;
     
 }
 
 
 
-header ul li a{
-    color:yellowgreen;
-    letter-spacing: 1px;
-    position: relative;
-  
-}
-
-header a:link, a:visited {
-    background-color: transparent;
-    color: rgb(199,249,148);
-    border: 2px solid green;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    
-  }
-  
-nav a:hover, nav a:active{
-    background-color:rgb(76,117,35);
-    color: white;
-    box-shadow: 0px 0px 125px 12px rgba(199, 255, 150, 0.65);
-  }
-
-nav img:active{
+header img:active{
     animation: unspin 5s linear infinite;
 }
 
@@ -77,8 +57,8 @@ nav img:active{
 
 
 
-.icons{
-    left: 50%;
+.masky .icons{
+    display: flex;
     position:relative;
     width: 60vh;
     height:60vh;
@@ -88,38 +68,56 @@ nav img:active{
     border: 0px solid green;
 }
 
-.icons a img{ 
+.masky .icons a img{ 
     position: relative;
 }
-.icons img:hover{
+
+.masky .icons img:hover{
     background-color: rgb(76,117,35);
     box-shadow: 0px 0px 100px 10px rgba(0, 5, 0, 0.55);
 }
 
 
 .masky img.logo{ 
+    display: flex;
     top: inherit; 
-    width: 60vh;
+    width:60vh ;
+    height:auto;
     position: absolute;
     border: 0px solid green;
     border-radius: 50%;
+}
 
-    
-}
 .masky{
-    padding-top: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 80vh;
-    width: auto;
-    padding-right: 60vh;
-    text-align: center;
-    border: 0px solid red; 
-    overflow: hidden;
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #wrapper{
-    margin-left: 5%;
-    width: 90%;
+    margin-left: 0%;
+  
 }
 
 
@@ -214,182 +212,182 @@ div.intro p{
 }
 .box div:nth-child(1){
     bottom: 1%;
-    left: 0%;
+    left: 11vw;
     animation: animate 20s linear infinite;
 }
 .box div:nth-child(2){
     bottom: 3%;
-    left: 5%;
+    left: 45vw;
     animation: animate 11s linear infinite;
 }
 .box div:nth-child(3){
     bottom: 8%;
-    left: 10%;
+    left: 10vw;
     animation: animate 15s linear infinite;
 }
 .box div:nth-child(4){
     bottom: 3%;
-    left: 15%;
+    left: 15vw;
     animation: animate 9s linear infinite;
 }
 .box div:nth-child(5){
     bottom: 6%;
-    left: 20%;
+    left: 20vw;
     animation: animate 17s linear infinite;
 }
 .box div:nth-child(6){
     bottom: 4%;
-    left: 25%;
+    left: 25vw;
     animation: animate 19s linear infinite;
 }
 .box div:nth-child(7){
     bottom: 5%;
-    left: 30%;
+    left: 30vw;
     animation: animate 10s linear infinite;
 }
 .box div:nth-child(8){
     bottom: 9%;
-    left: 35%;
+    left: 35vw;
     animation: animate 24s linear infinite;
 }
 .box div:nth-child(9){
     bottom: 0%;
-    left: 40%;
+    left: 40vw;
     animation: animate 9s linear infinite;
 }
 .box div:nth-child(10){
     bottom: 7%;
-    left: 45%;
+    left: 45vw;
     animation: animate 12s linear infinite;
 }
 .box div:nth-child(11){
     bottom: 12%;
-    left: 50%;
+    left: 50vw;
     animation: animate 17s linear infinite;
 }
 .box div:nth-child(12){
     bottom: 16%;
-    left: 55%;
+    left: 55vw;
     animation: animate 7s linear infinite;
 }
 .box div:nth-child(13){
     bottom: 9%;
-    left: 60%;
+    left: 60vw;
     animation: animate 15s linear infinite;
 }
 .box div:nth-child(14){
     bottom: 15%;
-    left: 65%;
+    left: 65vw;
     animation: animate 20s linear infinite;
 }
 .box div:nth-child(15){
     bottom: 12%;
-    left: 70%;
+    left: 70vw;
     animation: animate 14s linear infinite;
 }
 .box div:nth-child(16){
     bottom: 11%;
-    left: 75%;
+    left: 75vw;
     animation: animate 9s linear infinite;
 }
 .box div:nth-child(17){
     bottom: 0%;
-    left: 80%;
+    left: 80vw;
     animation: animate 18s linear infinite;
 }
 .box div:nth-child(18){
     bottom: 8%;
-    left: 85%;
+    left: 85vw;
     animation: animate 11s linear infinite;
 }
 .box div:nth-child(19){
     bottom: 13%;
-    left: 90%;
+    left: 78vw;
     animation: animate 8s linear infinite;
 }
 .box div:nth-child(20){
     bottom: 8%;
-    left: 95%;
+    left: 35vw;
     animation: animate 17s linear infinite;
 }
 .box div:nth-child(21){
     bottom: 4%;
-    left: 100%;
+    left: 57vw;
     animation: animate 20s linear infinite;
 }
 .box div:nth-child(22){
     bottom: 3%;
-    left: 12.5%;
+    left: 12.5vw;
     animation: animate 13s linear infinite;
 }
 .box div:nth-child(23){
     bottom: 6%;
-    left: 22.5%;
+    left: 22.5vw;
     animation: animate 8s linear infinite;
 }
 .box div:nth-child(24){
     bottom: 9%;
-    left: 32.5%;
+    left: 32.5vw;
     animation: animate 10s linear infinite;
 }
 .box div:nth-child(25){
     bottom: 2%;
-    left: 42.5%;
+    left: 42.5vw;
     animation: animate 7s linear infinite;
 }
 .box div:nth-child(26){
     bottom: 5%;
-    left: 52.5%;
+    left: 52.5vw;
     animation: animate 6s linear infinite;
 }
 .box div:nth-child(27){
     bottom: 8%;
-    left: 62.5%;
+    left: 62.5vw;
     animation: animate 9s linear infinite;
 }
 .box div:nth-child(28){
     bottom: 1%;
-    left: 72.5%;
+    left: 72.5vw;
     animation: animate 19s linear infinite;
 }
 .box div:nth-child(29){
     bottom: 4%;
-    left: 82.5%;
+    left: 82.5vw;
     animation: animate 8s linear infinite;
 }
 .box div:nth-child(30){
     bottom: 7%;
-    left: 92.5%;
+    left: 77.5vw;
     animation: animate 13s linear infinite;
 }
 .box div:nth-child(31){
     bottom: 17%;
-    left: 15%;
+    left: 15vw;
     animation: animate 30s linear infinite;
 }
 .box div:nth-child(32){
     bottom: 20%;
-    left: 30%;
+    left: 30vw;
     animation: animate 17s linear infinite;
 }
 .box div:nth-child(33){
     bottom: 24%;
-    left: 45%;
+    left: 45vw;
     animation: animate 20s linear infinite;
 }
 .box div:nth-child(34){
     bottom: 19%;
-    left: 60%;
+    left: 60vw;
     animation: animate 13s linear infinite;
 }
 .box div:nth-child(35){
-    bottom: 21%;
-    left: 75%;
+    bottom: 21vw;
+    left: 75vw;
     animation: animate 15s linear infinite;
 }
 .box div:nth-child(36){
     bottom: 23%;
-    left: 90%;
+    left: 90vw;
     animation: animate 27s linear infinite;
 }
 .box div h1{
@@ -489,3 +487,62 @@ div.intro p{
       }
 
    
+
+
+      @media only screen and (max-width: 768px) {
+
+    
+        header span {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        h1 {
+            font-size: 3rem;
+        }
+    
+        h2 {
+            font-size: 2.5rem;
+        }
+    
+        p {
+            font-size: 1.8rem;
+        }
+    }
+    
+    @media only screen and (max-width: 480px) {
+        .masky .icons{
+            display: flex;
+            position:relative;
+            width: 20rem;
+            height:20rem;
+            z-index: 2;
+            border-radius: 50%;
+            animation: unspin 100s linear infinite;
+            border: 0px solid green;
+        }
+    
+        .masky img.logo{ 
+            top: inherit; 
+            width:20rem ;
+            height:auto;
+            position: absolute;
+            border: 0px solid green;
+            border-radius: 50%;
+        }
+    
+        
+    
+        h1 {
+            font-size: 2.5rem;
+        }
+    
+        h2 {
+            font-size: 2rem;
+        }
+    
+        p {
+            font-size: 1.6rem;
+        }
+    }

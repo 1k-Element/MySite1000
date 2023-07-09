@@ -29,7 +29,7 @@ header {
 
 
 header img{
-    margin-top: -10%;
+    margin-top: -5%;
     margin-bottom: -10%;
     height: 20vh;
     position:relative;
@@ -63,7 +63,7 @@ header img:active{
     position:relative;
     width: 60vh;
     height:60vh;
-    z-index: 2;
+    
     border-radius: 50%;
     animation: unspin 100s linear infinite;
     border: 0px solid green;
@@ -547,7 +547,7 @@ div.intro p{
             position:relative;
             width: 20rem;
             height:20rem;
-            z-index: 2;
+          
             border-radius: 50%;
             animation: unspin 100s linear infinite;
             border: 0px solid green;
@@ -629,7 +629,7 @@ div.intro p{
             position:relative;
             width: 20rem;
             height:20rem;
-            z-index: 2;
+          
             border-radius: 50%;
             animation: unspin 100s linear infinite;
             border: 0px solid green;
@@ -691,6 +691,99 @@ div.intro p{
         }
     }
 
+
+
+
+
+
+
+
+    
+    .output1 {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        overflow: auto;
+        background-color: rgba(202, 250, 182, 0.5);
+    }
+    
+    .output1-content {
+        background-color: #a2ee84;
+        margin: 20% auto;
+        padding: 20px;
+        width: 80%;
+        align-content: center;
+    }
+    
+    .close1 {
+        color: #e20b0b;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    .close1:hover,
+    .close1:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .profile2 {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        overflow: auto;
+        background-color: rgba(202, 250, 182, 0.5);
+    }
+    
+    .profile2-content {
+        background-color: #a2ee84;
+        margin: 20% auto;
+        padding: 20px;
+        width: 80%;
+        align-content: center;
+    }
+    
+    .close2 {
+        color: #e20b0b;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    .close2:hover,
+    .close2:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
 
 
 

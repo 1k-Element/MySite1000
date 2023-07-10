@@ -766,5 +766,4 @@ div.intro p{
       
       #typing-text {
         white-space: pre-line;
-        animation: typing 3s steps(40, end);
       }

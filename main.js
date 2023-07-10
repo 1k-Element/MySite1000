@@ -29,7 +29,9 @@ req.send();
 
 
         img2.onclick = function () {
-            profile2.style.display = "block";}
+            profile2.style.display = "block";
+            typeWriter();
+        }
 
         span2.onclick = function () {
             profile2.style.display = "none";}
@@ -113,7 +115,7 @@ req.send();
 
             else if (event.target == profile2) {
                 profile2.style.display = "none";
-                typeWriter();
+                
             }
 
             else if (event.target == contact5) {

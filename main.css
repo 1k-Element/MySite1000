@@ -519,7 +519,7 @@ div.intro p{
     
 
         .profile2 .about{font-size: 1.2rem; letter-spacing: -0.03rem; line-height: 1.5;}
-        .profile2 .para{font-size: 1.4rem;}
+        .profile2 .para{font-size: 1.3rem;}
         .profile2 img{height: 12rem; float: center;}
 
     }
@@ -766,4 +766,5 @@ div.intro p{
       
       #typing-text {
         white-space: pre-line;
+
       }

@@ -532,7 +532,7 @@ div.intro p{
 
 
     
-    .output1 {
+    .output7 {
         display: none;
         position: fixed;
         z-index: 1;
@@ -544,7 +544,7 @@ div.intro p{
         background-color: rgba(202, 250, 182, 0.5);
     }
     
-    .output1-content {
+    .output7-content {
         background-color: #a2ee84;
         margin: 20% auto;
         padding: 20px;
@@ -552,7 +552,7 @@ div.intro p{
         align-content: center;
     }
     
-    .close1 {
+    .close7 {
         color: #e20b0b;
         float: right;
         font-size: 28px;
@@ -560,8 +560,8 @@ div.intro p{
         cursor: pointer;
     }
     
-    .close1:hover,
-    .close1:focus {
+    .close7:hover,
+    .close7:focus {
         color: black;
         text-decoration: none;
         cursor: pointer;
@@ -595,6 +595,7 @@ div.intro p{
         background-color: rgba(202, 250, 182, 0.5);
     }
     
+    .profile2 img{height: 20vh; float: center;}
     .profile2-content {
         background-color: #a2ee84;
         margin: 20% auto;
@@ -617,6 +618,8 @@ div.intro p{
         text-decoration: none;
         cursor: pointer;
     }
+
+    
 
 
 
@@ -682,6 +685,8 @@ div.intro p{
         background-color: rgba(202, 250, 182, 0.5);
     }
     
+    .contact5 img{height: 20vh; float: center;}
+
     .contact5-content {
         background-color: #a2ee84;
         margin: 20% auto;
@@ -706,6 +711,53 @@ div.intro p{
     }
 
 
+
+
+
+
+
+
+
+    .pay8 {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        overflow: auto;
+        background-color: rgba(202, 250, 182, 0.5);
+    }
+    
+    .pay8 img{width: 60vw; float: center;}
+
+    .pay8-content {
+        background-color: #a2ee84;
+        margin: 20% auto;
+        padding: 20px;
+        width: 80%;
+        align-content: center;
+    }
+    
+    .close8 {
+        color: #e20b0b;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    .close8:hover,
+    .close8:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+
+
+
     @keyframes typing {
         from {
           width: 0;
@@ -714,4 +766,5 @@ div.intro p{
       
       #typing-text {
         white-space: pre-line;
+        animation: typing 3s steps(40, end);
       }

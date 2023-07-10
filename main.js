@@ -8,16 +8,16 @@ req.send();
 
 
         // JavaScript to handle the popup functionality
-        var output1 = document.getElementById("myOutput");
-        var img1 = document.querySelector(" .masky .icons .button1 img");
-        var span1 = document.getElementsByClassName("close1")[0];
+        var output7 = document.getElementById("myOutput");
+        var img7 = document.querySelector(" .masky .icons .button7 img");
+        var span7 = document.getElementsByClassName("close7")[0];
 
 
-        img1.onclick = function () {
-            output1.style.display = "block";}
+        img7.onclick = function () {
+            output7.style.display = "block";}
 
-        span1.onclick = function () {
-            output1.style.display = "none";}
+        span7.onclick = function () {
+            output7.style.display = "none";}
 
 
 
@@ -68,9 +68,25 @@ req.send();
 
 
 
+                var pay8 = document.getElementById("myPay");
+        var img8 = document.querySelector(" .masky .icons .button8 img");
+        var span8 = document.getElementsByClassName("close8")[0];
+    
+    
+            img8.onclick = function () {
+                pay8.style.display = "block";}
+    
+            span8.onclick = function () {
+                pay8.style.display = "none";}
+
+
+
+
+
+
         window.onclick = function (event) {
-            if (event.target == output1) {
-                output1.style.display = "none";
+            if (event.target == output7) {
+                output7.style.display = "none";
             }
 
             else if (event.target == profile2) {
@@ -79,6 +95,10 @@ req.send();
 
             else if (event.target == contact5) {
                 contact5.style.display = "none";
+            }
+
+            else if (event.target == pay8) {
+                pay8.style.display = "none";
             }
         }
 

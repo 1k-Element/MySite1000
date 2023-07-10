@@ -84,23 +84,6 @@ req.send();
 
 
 
-        window.onclick = function (event) {
-            if (event.target == output7) {
-                output7.style.display = "none";
-            }
-
-            else if (event.target == profile2) {
-                profile2.style.display = "none";
-            }
-
-            else if (event.target == contact5) {
-                contact5.style.display = "none";
-            }
-
-            else if (event.target == pay8) {
-                pay8.style.display = "none";
-            }
-        }
 
 
 
@@ -117,4 +100,27 @@ req.send();
           }
         }
         
-        typeWriter();
+  
+
+
+
+
+        
+        window.onclick = function (event) {
+            if (event.target == output7) {
+                output7.style.display = "none";
+            }
+
+            else if (event.target == profile2) {
+                profile2.style.display = "none";
+                typeWriter();
+            }
+
+            else if (event.target == contact5) {
+                contact5.style.display = "none";
+            }
+
+            else if (event.target == pay8) {
+                pay8.style.display = "none";
+            }
+        }

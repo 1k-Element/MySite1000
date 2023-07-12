@@ -8,7 +8,7 @@ req.send();
 
 
         // JavaScript to handle the popup functionality
-        var output7 = document.getElementById("myOutput");
+        var output7 = document.getElementById("myOutput7");
         var img7 = document.querySelector(" .masky .icons .button7 img");
         var span7 = document.getElementsByClassName("close7")[0];
 

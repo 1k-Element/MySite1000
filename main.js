@@ -21,6 +21,21 @@ req.send();
 
 
 
+            var output1 = document.getElementById("myOutput");
+            var img1 = document.querySelector(" .masky .icons .button1 img");
+            var span1 = document.getElementsByClassName("close1")[0];
+    
+    
+            img1.onclick = function () {
+                output1.style.display = "block";}
+    
+            span1.onclick = function () {
+                output1.style.display = "none";}
+    
+    
+
+
+
 
 
         var profile2 = document.getElementById("myProfile");

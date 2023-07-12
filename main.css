@@ -119,7 +119,7 @@ header img:active{
 }
 
 .masky .icons .button2 img {
-    top:-5.75vh; left: 24vh; width: 12vh; animation: spin 100s linear infinite; border-radius: 50%;
+    top: 24vh; left: -5.6vh; width: 12vh; animation: spin 100s linear infinite; border-radius: 50%;
 }
 
 .masky .icons .button3 img {
@@ -127,7 +127,7 @@ header img:active{
 }
 
 .masky .icons .button4 img {
-    top: 24vh; left: -5.6vh; width: 12vh; animation: spin 100s linear infinite; border-radius: 50%;
+    top:-5.75vh; left: 24vh; width: 12vh; animation: spin 100s linear infinite; border-radius: 50%;
 }
 
 .masky .icons .button5 img {
@@ -482,7 +482,7 @@ div.intro p{
         }
         
         .masky .icons .button2 img {
-            top:-2.7rem; left: 7.15rem; width: 24vw; animation: spin 100s linear infinite; border-radius: 50%;
+            top:7.15rem; left: -2.65em; width: 24vw; animation: spin 100s linear infinite; border-radius: 50%;
         }
         
         .masky .icons .button3 img {
@@ -490,7 +490,7 @@ div.intro p{
         }
         
         .masky .icons .button4 img {
-            top:7.15rem; left: -2.65em; width: 24vw; animation: spin 100s linear infinite; border-radius: 50%;
+            top:-2.7rem; left: 7.15rem; width: 24vw; animation: spin 100s linear infinite; border-radius: 50%;
         }
         
         .masky .icons .button5 img {
@@ -569,6 +569,42 @@ div.intro p{
 
 
 
+
+
+    .output1 {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        overflow: auto;
+        background-color: rgba(202, 250, 182, 0.5);
+    }
+    
+    .output1-content {
+        background-color: #a2ee84;
+        margin: 20% auto;
+        padding: 20px;
+        width: 80%;
+        align-content: center;
+    }
+    
+    .close1 {
+        color: #e20b0b;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    .close1:hover,
+    .close1:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
 
 
 

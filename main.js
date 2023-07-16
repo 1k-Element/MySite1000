@@ -105,7 +105,7 @@ req.send();
 
 
 
-        const text = "I'm a passionate freelance developer and innovator who is committed to pushing the boundaries of technology.\n\nI can provide a broad range of solutions to fulfill your technological needs, with proficiency in automation development, robotic innovation, mechatronics services, thesis consultation, AI systems, IoT systems, and mobile app development. \n\nI have developed my skills over the years of passionately making projects with Python, C/C++, JavaScript, as well as interacting freely with programmable boards such as Arduino, Raspberry Pi, and ESP modules. With over 100 clients served since 2019, I am confident to offer a commitment to deliver an exceptional project outcomes.";
+        const text = "I'm a passionate freelance developer and innovator who is committed to pushing the boundaries of technology.\n\nI can provide a broad range of solutions to fulfill your technological needs, with proficiency in automation development, robotic innovation, mechatronics services, thesis consultation, AI systems, IoT systems, and mobile app development. \n\nI have developed my skills over the years of passionately making projects with Python, C/C++, JavaScript, as well as interacting freely with programmable boards such as Arduino, Raspberry Pi, and ESP modules. With over a hundred clients served since 2019, I am confident to offer a commitment to deliver an exceptional project outcomes.";
         const typingText = document.getElementById("typing-text");
         
         let i = 0;
